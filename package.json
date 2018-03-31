@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/AdamOlsson/home_server#readme",
   "dependencies": {
+    "elasticsearch": "^14.2.2",
     "express": "^4.16.3",
     "morgan": "^1.9.0"
   }

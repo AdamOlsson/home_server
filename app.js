@@ -6,6 +6,7 @@ app.use(morgan("dev"));
 
 const pathToRoutes = "./api/routes/"
 const testRoute = require(pathToRoutes + "test");
+const elasticRoute = require(pathToRoutes + "elasticsearch")
 
 
 app.use((req, res, next) => {
@@ -21,6 +22,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/test", testRoute);
+app.use("/elasticsearch", elasticRoute);
 
 app.use((req, res, next) => {
     const error = new Error('Not found');
