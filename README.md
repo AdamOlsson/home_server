@@ -1,1 +1,1 @@
-# Just an empty READ.md file. Nothing to se here
+# Just an empty READ.md file. Nothing to see here
