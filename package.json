@@ -1,0 +1,23 @@
+{
+  "name": "home_server",
+  "version": "1.0.0",
+  "description": "A server running locally at my home. Will perform various tasks to simplify for further projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamOlsson/home_server.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Docker"
+  ],
+  "author": "Adam Olsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamOlsson/home_server/issues"
+  },
+  "homepage": "https://github.com/AdamOlsson/home_server#readme"
+}
