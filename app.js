@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
-const morgan = require('morgan') // Logging 
+const morgan = require('morgan'); // Logging 
+const bodyParser = require('body-parser');
 
 app.use(morgan("dev"));
+app.use(bodyParser.json())
 
 const pathToRoutes = "./api/routes/"
 const testRoute = require(pathToRoutes + "test");
